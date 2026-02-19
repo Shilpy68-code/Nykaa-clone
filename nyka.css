@@ -1,0 +1,314 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.f-nav{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: pink;
+    padding: 18px;
+
+}
+
+.feature{
+    display:flex;
+
+}
+
+.feature .app{
+    display:flex;
+   margin-inline: 22px;
+}
+
+.feature .app i{
+    margin-inline: 8px;
+}
+
+.sec-nav{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:11px;
+}
+
+.sec-nav .nyka-bar ul img{
+    width:8%;
+    margin-left: 22px;
+}
+
+.sec-nav ul a{
+    margin-inline: 22px;
+}
+
+.sec-nav .inputs{
+    display:flex;
+
+}
+
+.sec-nav .inputs button{
+    margin-inline:22px;
+}
+
+.sec-nav .inputs input{
+    width:220px;
+    background-color: rgb(212, 200, 200);
+    border:none;
+    outline:none;
+    text-align:center;
+    font-size: 16px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px; 
+}
+
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2 rem;
+    background-color:rgb(212, 200, 200);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px; 
+    
+}
+
+.sec-nav .inputs button{
+    width:80px;
+    height:35px;
+    background-color: rgb(237, 59, 134);
+    color:white;
+    font-size:17px;
+    border:none;
+    border-radius: 5px;;
+}
+.items{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:8px;
+}
+
+.items ul li button{
+    width: 100px;
+    height:34px;
+     background-color: rgb(237, 59, 134);
+    color:white;
+    font-size:17px;
+    border:none;
+    border-radius: 5px;;
+}
+.items ul li a{
+list-style: none;
+margin-inline: 22px;
+text-align: center;
+
+}
+
+.items ul li{
+    list-style:none;
+}
+
+.main-img img{
+    width:100%;
+
+}
+
+.pink img{
+    width:100%;
+}
+
+.pink h2{
+    text-align: center;
+    padding:7 px;
+}
+
+.brand h2{
+    text-align: center;
+}
+
+
+
+.card{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+    
+}
+
+
+
+.card img{
+    margin-inline:22px;
+    width:44%;
+    border-radius: 7px;
+}
+
+.brand h2{
+    text-align: center;
+    padding:22px;
+}
+
+.top-brand{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.top-brand img{
+    margin-inline:22px;
+    width:44%;
+    border-radius:7px;
+}
+
+.only-nyka h2{
+  text-align: center;
+  padding:22px;
+}
+
+.only-nyka .only{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.only img{
+    width:44%;
+    margin-inline:22px;
+    border-radius:7px;
+
+}
+
+.makeup{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    padding:42px;
+}
+
+.makeup img{
+    width:30%;
+    margin-inline: 18px;
+    border-radius:7px;
+
+}
+
+.special  h2{
+   text-align:center;
+   justify-content: center;
+   justify-content: space-around;
+}
+
+.special .curation{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.curation img{
+    margin-inline:22px;
+    width:53%;
+    border-radius:7px;
+
+}
+
+.beauty-advice h2{
+    text-align: center;
+    padding: 22px;
+}
+
+.beauty-advice .advice{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.advice img{
+    margin-inline:22px;
+    width:53%;
+    border-radius:7px;
+    
+}
+
+.footer .foot-panel1{
+    background-color: #959599;
+    color:white;
+    border-top:0.5px solid white;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+    align-items: center;
+
+}
+
+.footer .foot-panel1 ul li{
+
+list-style: none;
+}
+
+.footer .foot-panel1 ul li h2{
+ font-size: medium;
+}
+
+.footer .foot-panel1 ul li a{
+    font-size: small;
+}
+
+.footer .foot-panel2{
+    background-color: #f7f7f9;
+    color:black;
+   
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+    align-items: center;
+    
+
+}
+.footer .foot-panel2 ul li a{
+  font-size: smaller;
+}
+
+.footer .foot-panel2 ul li h2{
+    font-weight: lighter;
+    font-size: small;
+}
+
+.footer .foot-panel3{
+    background-color: rgb(243, 17, 111);
+   
+    color:white;
+    height: 80px;
+     font-size: 0.7rem;
+   text-align: center;
+
+}
+
+.pages{
+   
+   padding-top: 25px;
+}
+
+.copyright{
+  
+    padding-top: 5px;
+}
+
+.footer .foot-panel4{
+    background-color:white;
+    color:#87878a;
+    margin-top:30px ;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
